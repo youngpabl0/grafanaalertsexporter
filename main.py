@@ -55,6 +55,7 @@ def add_trigger(alerts_json, desc, targets, name, expression, ttl, ttl_state,
 
 
 def add_def_alerting(alerts_json, tags):
+    # it's def for me, u can change it for yourself
     """add default level 1 subscription to alert.yaml"""
     alerts_json["alerting"] = [{
         "tags": tags, "contacts": [{"type": "slack", "value": "#spb_monitoring"},

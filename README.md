@@ -39,5 +39,6 @@ Example run
 - alerts in yaml are generated for moira with saturations, link section and other specified stuff
 - default yaml triggers in lib.defaults.py
 - it's open sourced script, u can send PR / commits / fork it, i will appreciate for them
+- default yaml alerting are placed in add_def_alerting, u can change it by yourself
 
 have a nice day
