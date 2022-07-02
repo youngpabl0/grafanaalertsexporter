@@ -31,7 +31,6 @@ def add_trigger(alerts_json, desc, targets, name, expression, ttl, ttl_state,
                    "ttl": ttl,
                    "ttl_state": ttl_state,
                    "expression": expression,
-                   "dashboard": dashboard,
                    "pending_interval": pending_interval,
                    "tags": tags,
                    "saturation": saturation
